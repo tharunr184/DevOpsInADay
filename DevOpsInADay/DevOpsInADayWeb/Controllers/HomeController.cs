@@ -12,11 +12,9 @@ namespace DevOpsInADayWeb.Controllers
 {
     public class HomeController : Controller
     {
-        private IConfiguration config;
 
-        public HomeController(IConfiguration config)
+        public HomeController()
         {
-            this.config = config;
         }
 
         public IActionResult Index()
